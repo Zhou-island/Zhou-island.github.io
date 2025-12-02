@@ -9,15 +9,16 @@ function changeText(){
     demoText.innerHTML = '文本已改变！';
     demoText.style.color = '#e74c3c';
     demoText.style.fontWeight = 'bold';
-}
-setTimeout(function(){
+    setTimeout(function(){
     demoText.innerHTML='原始文本：欢迎来到我的网站';
     demoText.style.color='';
     demoText.style.fontWeight='';
-},2000);
+},3000);
+}
 // 问候
-function showalert() {
+function showAlert() {
     alert('感谢您的访问！');
 }
-// 提交
+
+
 
