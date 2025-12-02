@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>成果展示</title>
+    <link rel="stylesheet" href="/myweb/CSS/1.css">
+    <script src="/myweb/JS/1.JS"></script>
+</head>
+<body>
+    <!-- 导航栏 -->
+     <header>
+        <nav>
+            <ul class="导航栏">
+                <li><a href="#首页">首页</a></li>
+                <li><a href="#关于我">关于我</a></li>
+                <li><a href="#学习成果">学习成果</a></li>
+                <li><a href="#联系我">联系我</a></li>
+            </ul>
+        </nav>
+     </header>
+    
+     <!-- 首页 -->
+      <section id="首页" class="section">
+        <div class="home">
+         <h1 id="">周若屿的个人主页</h1>
+         <p>预防医学|前端初学者</p>
+         <img src="/myweb/头像.webp" alt="我的头像">
+         </div>
+      </section>
+      <!-- 关于我 -->
+       <section id="关于我" class="section">
+        <div class="about">
+        <h3>关于我</h3>
+        <p>我是南通大学公共卫生学院的学生，正在学习前端开发技术</p>
+        <h3>教育背景</h3>
+        <ul>
+            <li>南通大学公共卫生学院 预防医学</li>
+            <li>本科在读</li>
+        </ul>
+        <h3>掌握技能</h3>
+        <ul>
+            <li>HTML5-能够构建网页基本结构</li>
+            <li>CSS3-能够美化网页格式</li>
+            <li>JavaScript基础-能够实现简单交互</li>
+            <li>医学文献检索与阅读</li>
+            <li>文献整理与科研工具掌握（EndNote）</li>
+        </ul>
+        <h3>加入科研组的初衷</h3>
+        <p>希望通过学习编程技术，提升科研数据处理能力，为未来的科研学习打下基础</p>
+        </div>
+       </section>
+       <!-- 学习成果 -->
+        <section id="学习成果" class="section">
+            <h2>我的学习成果</h2>
+            <div class="container">
+                <div class="project">
+                    <h3>CSS美化按钮</h3>
+                    <button id="mybutton" class="button">点击我试试</button>
+                    <p>这是一个css美化按钮有悬停效果</p>
+              </div>
+              <!-- js交互 -->
+                <div class="project">
+                    <h3>JS交互演示</h3>
+                    <p id="demoText">原始文本：欢迎来到我的网站</p>
+                    <button onclick="changeText()" >改变文本</button>
+                    <button onclick="showalert()" >弹出问候</button>
+               </div>
+                <!-- 学习来源 -->
+                 <div class="project">
+                    <h3>学习来源</h3>
+                    <p>我通过以下教程学习了前端基础</p>
+                    <a href=" https://www.bilibili.com/video/BV1BT4y1W7Aw/?share_source=copy_web&vd_source=52f34c8e66b1b7dc20ce61bab69be83d" target="_blank" rel="noopener noreferrer" title="在新窗口打开b站教程">【3小时前端入门教程（HTML+CSS+JS）】
+                    </a>
+                    <br>
+                    <a href="https://www.bilibili.com/video/BV1p84y1P7Z5/?share_source=copy_web&vd_source=52f34c8e66b1b7dc20ce61bab69be83d" target="_blank" rel="noopener noreferrer" title="在新窗口打开b站教程">【尚硅谷前端入门html+css零基础教程，零基础前端开发html5+css3视频】
+                    </a>
+                    <p>第一个教程帮我在短时间内掌握网页制作的基础</p>
+                    <p>第二个教程帮助我更细致地学习网页制作的内容</p>
+                </div>
+            </div>
+        </section>
+        <!-- 联系我 -->
+         <section id="联系我" class="section">
+            <h2>联系我</h2>
+            <div class="form">
+                <p>如果你对我的项目感兴趣，可以通过以下方式联系我</p>
+                <form action="#">
+                    <div id="name">
+                        <label for="NAME">姓名：</label>
+                        <input type="text" id="NAME" placeholder="请输入您的姓名">
+                   </div>
+                   <div id="email">
+                        <label for="email">邮箱：</label>
+                        <input type="email" class="email" placeholder="example@email.com">
+                   </div>
+                   <div id="message">
+                        <label for="message">留言：</label>
+                        <input type="text" class="message" placeholder="请输入您的留言……">
+                   </div>
+                        <button type="submit" class="submit">提交留言</button>
+                   <div class="contact">
+                        <p>📧邮箱：66582198@qq.com</p>
+                        <p>📞电话：18913274139</p>
+                   </div>
+                </form>
+            </div>           
+         </section>
+         <!-- 页脚 -->
+          <footer>
+            <p>© 2025 周若屿的个人网站. 使用HTML、CSS和JavaScript构建。</p>
+            <p>本网站仅用于展示学习成果，内容仅供参考。</p>
+          </footer>
+</body>
+</html>
